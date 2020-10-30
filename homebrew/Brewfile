@@ -1,0 +1,53 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "gotgenes/homebrew-gotgenes"
+brew "ack"
+brew "bash-completion"
+brew "zsh-completions"
+brew "docker"
+brew "emacs"
+brew "exa"
+brew "getignore"
+brew "git"
+brew "git-lfs"
+brew "go"
+brew "java"
+brew "lynx"
+brew "mas"
+brew "node"
+brew "nvm"
+brew "pandoc"
+brew "patchutils"
+brew "pkg-config"
+brew "pyenv"
+brew "python"
+brew "wget"
+brew "yarn"
+cask "brave-browser"
+cask "gimp"
+cask "google-chrome"
+cask "kindle"
+cask "virtualbox"
+cask "visual-studio-code"
+mas "Color Picker", id: 641027709
+mas "Dark Mode for Safari", id: 1397180934
+mas "EPUB Viewer", id: 627866610
+mas "Evernote", id: 406056744
+mas "Flycut", id: 442160987
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "iRuler", id: 1224740306
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "PixelStick", id: 415158530
+mas "PlainTextMenu", id: 833521762
+mas "Power JSON Editor", id: 499768540
+mas "Slack", id: 803453959
+mas "Snapshot Editor", id: 657709881
+mas "Transmit", id: 403388562
+mas "Uninstaller Pro", id: 1153942223
+mas "World Clock Pro", id: 858446756
+mas "Xcode", id: 497799835
