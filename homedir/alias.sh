@@ -1,6 +1,6 @@
 # - - - -- - - Shell-related Aliases
 alias l='ls -ail'
-alias x='exa --long'
+alias x='exa --long --all'
 
 alias whatlistens="lsof -iTCP -sTCP:LISTEN -n -P"
 
