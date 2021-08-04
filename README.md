@@ -43,7 +43,8 @@ If there is any problem, you can always make any corrections needed and then re-
 ### Optional Info
 
 First, see the [Customizing](#customizing) and [Caveats](#caveats) sections, below.
-Second, because this install includes all of Xcode (yeah, you will need it, for example, to get through the occasional rough spot with `node-gyp` dependency), find something else to do for an hour or so while XCode installs.  You can continue to use your computer while the install progresses.
+
+Second, if you've uncommented the Xcode install in the `Brewfile`, find something else to do for an hour or so while XCode installs.  You can continue to use your computer while the install progresses.
 
 ### Running
 
