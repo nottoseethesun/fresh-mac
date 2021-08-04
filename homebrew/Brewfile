@@ -31,23 +31,34 @@ cask "google-chrome"
 cask "kindle"
 cask "virtualbox"
 cask "visual-studio-code"
-mas "Color Picker", id: 641027709
-mas "Dark Mode for Safari", id: 1397180934
-mas "EPUB Viewer", id: 627866610
-mas "Evernote", id: 406056744
+
+# macOS App Store Apps
+# Note that until Brewfile supports `mas purchase`, these must have been installed
+# at least once before on the currently signed-in-on-the-macOS Apple ID.
 mas "Flycut", id: 442160987
-mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
-mas "iRuler", id: 1224740306
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "PixelStick", id: 415158530
-mas "PlainTextMenu", id: 833521762
-mas "Power JSON Editor", id: 499768540
 mas "Slack", id: 803453959
-mas "Snapshot Editor", id: 657709881
-mas "Transmit", id: 403388562
-mas "Uninstaller Pro", id: 1153942223
-mas "World Clock Pro", id: 858446756
-mas "Xcode", id: 497799835
+
+
+# Optional at this time
+
+# mas 497799835 # "Xcode"
+
+
+# Recommended But Cost Money:
+
+# mas 415158530 # "PixelStick"
+# mas 833521762 # "PlainTextMenu"
+# mas 627866610 # "EPUB Viewer"
+# mas 641027709 # "Color Picker"
+# mas 499768540 # "Power JSON Editor"
+# mas "Transmit", id: 403388562
+# mas "Uninstaller Pro", id: 1153942223
+# mas "World Clock Pro", id: 858446756
+
+
+# Very Optional
+
+# mas 406056744 # "Evernote"
