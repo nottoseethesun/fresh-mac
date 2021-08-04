@@ -1,12 +1,10 @@
-Nuuf.theme-hackershaze
 akamud.vscode-theme-onedark
-aki77.tiny-emacs
 azamuddin.calmness-vsc-theme
 azemoh.one-monokai
 christian-kohler.npm-intellisense
 DavidAnson.vscode-markdownlint
 dbankier.vscode-instant-markdown
-djabraham.vscode-yaml-validation
+dnicolson.binary-plist
 doodu.afterglow-reinacted
 eg2.tslint
 eg2.vscode-npm-script
@@ -26,11 +24,13 @@ ms-python.python
 ms-vscode.azure-account
 msjsdiag.debugger-for-chrome
 naturallucky.emacspigmee
+Nuuf.theme-hackershaze
 peymanslh.blueberry-dark-theme
 redhat.java
 redhat.vscode-yaml
 rrudi.emacs-functions
 rrudi.vscode-dired
+t-yng.emacs-region
 usernamehw.indent-one-space
 victormejia.one-monokai-darker
 vscjava.vscode-java-debug
