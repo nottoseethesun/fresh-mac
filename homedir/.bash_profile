@@ -3,9 +3,13 @@ export HOME_BIN=~/bin
 PATH=$PATH:$HOME_BIN
 export PATH
 
+source ./setBrewPrefix.sh
+eval "$(${brewPrefix}/bin/brew shellenv)"
+
 # - - Begin nvm section
-export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh"
+    export NVM_DIR="$HOME/.nvm"
+    [ -s "$(brew --prefix)/opt/nvm/nvm.sh" ] && . "$(brew --prefix)/opt/nvm/nvm.sh" # This loads nvm
+    [ -s "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" ] && . "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" # This loads nvm bash_completion
 # - - End nvm section
 
 export GREP_OPTIONS='--color=auto --exclude-dir=.svn' # grep 2.5.1a or >
