@@ -54,6 +54,8 @@ cd fresh-mac
 
 You can manually update any of the install lists, preferences lists (`.plist`s), or home-directory dot files.  For example, you might need a somewhat different set of packages and apps.
 
+You may wish to simply start customizing by commenting out any parts of `./master-setup.sh` that you don't want to run.
+
 ## Caveats
 
 Not everything might work perfectly with this, but it should still save a lot of time.
