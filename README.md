@@ -1,5 +1,7 @@
 # fresh-mac
 
+![Fresh macaroni](./images/maccheroni_macro.jpg)
+
 ## Story
 
 Sometimes, we don't want to just use Time Machine to migrate to a new Mac.  We want a fresh Mac, unencumbered by the bulk we have accumulated over the years.  
@@ -73,3 +75,7 @@ Re-running `fresh-mac` does not hurt.
 Read the [Aims](#aims) section and ensure that your contributions further those aims.
 
 Submit a feature or bugfix pr from your branch/fork.
+
+## Project Logo Credit and License
+
+The project logo, `maccheroni_macro.jpg`, is licensed under the [CCA 3](https://creativecommons.org/licenses/by/3.0/) by `freeimageslive.co.uk`.
