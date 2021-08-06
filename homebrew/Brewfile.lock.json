@@ -5,10 +5,10 @@
         "revision": "04c4152b0fbbf62c021ad71639439d5ab5fd1992"
       },
       "homebrew/cask": {
-        "revision": "877107f1a76cdb41a145002b6a31c680d10caaa8"
+        "revision": "de6e2df947544bf9091e92ba295de8db191fb080"
       },
       "homebrew/core": {
-        "revision": "2d1c9e729d21c02dd0d906b02cb56b595d76c8ce"
+        "revision": "e988a206169fa820f4e344b96db43c1b21f91c39"
       },
       "homebrew/services": {
         "revision": "f33dd5180998918b3fdc71605ece21f4d732f682"
@@ -86,36 +86,16 @@
           }
         }
       },
-      "docker": {
-        "version": "20.10.7",
+      "zsh-completions": {
+        "version": "0.33.0_1",
         "bottle": {
           "rebuild": 0,
           "root_url": "https://ghcr.io/v2/homebrew/core",
           "files": {
-            "arm64_big_sur": {
+            "all": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/docker/blobs/sha256:c4ada3bfb0b5e0915079f5a26ea28e46b506e6bc1ad859e609272de7296416c7",
-              "sha256": "c4ada3bfb0b5e0915079f5a26ea28e46b506e6bc1ad859e609272de7296416c7"
-            },
-            "big_sur": {
-              "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/docker/blobs/sha256:626a28393a8e833b5848a52c1fbe2b71d63e1540c4c689216c3d2b27d2a871b4",
-              "sha256": "626a28393a8e833b5848a52c1fbe2b71d63e1540c4c689216c3d2b27d2a871b4"
-            },
-            "catalina": {
-              "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/docker/blobs/sha256:4d09b76ce85c651cb4454ddf2ed8b3f680231793747f5d997a1a41111e92e997",
-              "sha256": "4d09b76ce85c651cb4454ddf2ed8b3f680231793747f5d997a1a41111e92e997"
-            },
-            "mojave": {
-              "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/docker/blobs/sha256:7f947fa8659c8b81daf5fdf3fe065d97d7443db9653fdfbcb5e91de724635d22",
-              "sha256": "7f947fa8659c8b81daf5fdf3fe065d97d7443db9653fdfbcb5e91de724635d22"
-            },
-            "x86_64_linux": {
-              "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/docker/blobs/sha256:61eb6f531596b84a10ddd5c20e0c8b371b886600bfe1aa13cc0134c3d8c1ef12",
-              "sha256": "61eb6f531596b84a10ddd5c20e0c8b371b886600bfe1aa13cc0134c3d8c1ef12"
+              "url": "https://ghcr.io/v2/homebrew/core/zsh-completions/blobs/sha256:eab228532a15b1c8eddfd38f46306cf723e6f331d38c8874d0305d6fe888ab70",
+              "sha256": "eab228532a15b1c8eddfd38f46306cf723e6f331d38c8874d0305d6fe888ab70"
             }
           }
         }
@@ -188,7 +168,7 @@
           }
         }
       },
-      "getignore": {
+      "gotgenes/gotgenes/getignore": {
         "version": "2.0.0",
         "bottle": false
       },
@@ -324,6 +304,40 @@
               "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
               "url": "https://ghcr.io/v2/homebrew/core/openjdk/blobs/sha256:fe6b6e8afe79afa9f8d7ab2d9d825c27c94050a833a3584327069c21002421ca",
               "sha256": "fe6b6e8afe79afa9f8d7ab2d9d825c27c94050a833a3584327069c21002421ca"
+            }
+          }
+        }
+      },
+      "kubernetes-cli": {
+        "version": "1.22.0",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/kubernetes-cli/blobs/sha256:5f092ec31e361beb556bb217878abdc5d90899eae933bb2070fa6a8e155581cc",
+              "sha256": "5f092ec31e361beb556bb217878abdc5d90899eae933bb2070fa6a8e155581cc"
+            },
+            "big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/kubernetes-cli/blobs/sha256:c32afe0a4e3ee27324c93d4901b5e13699e2b5ccbed1973617ef6e001b33ac43",
+              "sha256": "c32afe0a4e3ee27324c93d4901b5e13699e2b5ccbed1973617ef6e001b33ac43"
+            },
+            "catalina": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/kubernetes-cli/blobs/sha256:6c703c3251cab3d37e18c3b5fa33a3a12ab41e7aa11bb8aa4c4b48374b83a4a6",
+              "sha256": "6c703c3251cab3d37e18c3b5fa33a3a12ab41e7aa11bb8aa4c4b48374b83a4a6"
+            },
+            "mojave": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/kubernetes-cli/blobs/sha256:f9bcaca2aad2436342424325aac11afeb880b38f133dddaddee412219b339d0d",
+              "sha256": "f9bcaca2aad2436342424325aac11afeb880b38f133dddaddee412219b339d0d"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/kubernetes-cli/blobs/sha256:137b06f0a2ad432fad0c6a5b493232865459d8e813680f2b18b3603cbead744b",
+              "sha256": "137b06f0a2ad432fad0c6a5b493232865459d8e813680f2b18b3603cbead744b"
             }
           }
         }
@@ -676,31 +690,19 @@
             }
           }
         }
-      },
-      "zsh-completions": {
-        "version": "0.33.0_1",
-        "bottle": {
-          "rebuild": 0,
-          "root_url": "https://ghcr.io/v2/homebrew/core",
-          "files": {
-            "all": {
-              "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/zsh-completions/blobs/sha256:eab228532a15b1c8eddfd38f46306cf723e6f331d38c8874d0305d6fe888ab70",
-              "sha256": "eab228532a15b1c8eddfd38f46306cf723e6f331d38c8874d0305d6fe888ab70"
-            }
-          }
-        }
-      },
-      "gotgenes/gotgenes/getignore": {
-        "version": "2.0.0",
-        "bottle": false
       }
     },
     "cask": {
       "brave-browser": {
-        "version": "1.27.109.0,127.109",
+        "version": "1.27.111.0,127.111",
         "options": {
           "full_name": "brave-browser"
+        }
+      },
+      "docker": {
+        "version": "3.5.2,66501",
+        "options": {
+          "full_name": "docker"
         }
       },
       "gimp": {
@@ -728,50 +730,18 @@
         }
       },
       "visual-studio-code": {
-        "version": "1.58.2",
+        "version": "1.59.0",
         "options": {
           "full_name": "visual-studio-code"
         }
       }
     },
     "mas": {
-      "App Cleaner & Uninstaller": null,
-      "Authy Bluetooth": {
-        "id": "668841348",
-        "version": "1.3"
-      },
-      "Color Picker": {
-        "id": "641027709",
-        "version": "1.6.5"
-      },
-      "Dark Mode for Safari": {
-        "id": "1397180934",
-        "version": "2.9.0"
-      },
-      "EPUB Viewer": {
-        "id": "627866610",
-        "version": "2.0.0"
-      },
-      "Evernote": {
-        "id": "406056744",
-        "version": "10.2.4"
-      },
       "Flycut": {
         "id": "442160987",
         "version": "1.9.6"
       },
-      "GarageBand": {
-        "id": "682658836",
-        "version": "10.3.5"
-      },
-      "iMovie": {
-        "id": "408981434",
-        "version": "10.1.16"
-      },
-      "iRuler": {
-        "id": "1224740306",
-        "version": "1.1.2"
-      },
+      "Get Plain Text": null,
       "Keynote": {
         "id": "409183694",
         "version": "11.1"
@@ -784,56 +754,18 @@
         "id": "409201541",
         "version": "11.1"
       },
-      "PixelStick": {
-        "id": "415158530",
-        "version": "2.16.2"
-      },
-      "PlainTextMenu": {
-        "id": "833521762",
-        "version": "1.1"
-      },
-      "Power JSON Editor": {
-        "id": "499768540",
-        "version": "2.0"
-      },
       "Slack": {
         "id": "803453959",
         "version": "4.18.0"
-      },
-      "Snapshot Editor": null,
-      "Transmit": {
-        "id": "403388562",
-        "version": "4.4.13"
-      },
-      "Uninstaller": null,
-      "World Clock Pro": {
-        "id": "858446756",
-        "version": "1.7.2"
-      },
-      "Xcode": {
-        "id": "497799835",
-        "version": "12.1"
-      },
-      "Uninstaller Pro": {
-        "id": "1153942223",
-        "version": "2.0.1"
       }
     }
   },
   "system": {
     "macos": {
-      "catalina": {
-        "HOMEBREW_VERSION": "2.5.7",
-        "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "934fb32fc8505de19716b56ef766dde3a773e755",
-        "CLT": "12.1.0.0.1.1602137645",
-        "Xcode": "12.1",
-        "macOS": "10.15.7"
-      },
       "big_sur": {
         "HOMEBREW_VERSION": "3.2.6",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "2d1c9e729d21c02dd0d906b02cb56b595d76c8ce",
+        "Homebrew/homebrew-core": "e988a206169fa820f4e344b96db43c1b21f91c39",
         "CLT": "12.5.1.0.1.1623191612",
         "Xcode": "12.5",
         "macOS": "11.5.1"
