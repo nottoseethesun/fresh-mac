@@ -3,7 +3,7 @@ export HOME_BIN=~/bin
 PATH=$PATH:$HOME_BIN
 export PATH
 
-source ./setBrewPrefix.sh
+source ~/setBrewPrefix.sh
 eval "$(${brewPrefix}/bin/brew shellenv)"
 
 # - - Begin nvm section
