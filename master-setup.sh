@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir ~/bin
+mkdir -p ~/bin
 pushd ./homedir
 ./copy.sh
 popd
@@ -17,3 +17,4 @@ popd
 pushd ./homedir
 ./setup-global-gitignore.sh
 popd
+

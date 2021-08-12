@@ -6,9 +6,13 @@
 
 source ../util/setBrewPrefix.sh
 
-"${brewPrefix}/bin/brew" bundle install
+echo fresh-mac: Setting the brew prefix used by fresh-mac to ${brewPrefix}
+echo fresh-mac: Setting the brew executable prefix used by fresh-mac to ${brewExecutablePrefix}
 
-sudo chmod -R 755 "${brewPrefix}/share" # https://stackoverflow.com/questions/13762280/zsh-compinit-insecure-directories
+"${brewExecutablePrefix}/bin/brew" bundle install
+
+sudo chmod -R 755 /usr/local/share/ # https://stackoverflow.com/questions/13762280/zsh-compinit-insecure-directories
 
 # Package-specific
 sudo ln -sfn "${brewPrefix}/openjdk/libexec/openjdk.jdk" /Library/Java/JavaVirtualMachines/openjdk.jdk
+
