@@ -4,7 +4,7 @@ PATH=$PATH:$HOME_BIN
 export PATH
 
 source ~/setBrewPrefix.sh
-eval "$(${brewPrefix}/bin/brew shellenv)"
+eval "$(${brewExecutablePrefix}/bin/brew shellenv)"
 
 # - - Begin nvm section
     export NVM_DIR="$HOME/.nvm"
