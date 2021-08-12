@@ -1,43 +1,48 @@
+tap "gotgenes/gotgenes"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "gotgenes/homebrew-gotgenes"
 brew "ack"
+brew "python@3.9"
+brew "awscli@1", link: true
 brew "bash-completion"
-brew "zsh-completions"
-brew "emacs"
+brew "pkg-config"
+brew "emacs", restart_service: true
+brew "cask"
 brew "exa"
-brew "gotgenes/gotgenes/getignore"
+brew "gh"
 brew "git"
 brew "git-lfs"
-brew "go"
-brew "java"
 brew "kubernetes-cli"
 brew "lynx"
 brew "mas"
 brew "node"
 brew "nvm"
+brew "openjdk"
 brew "pandoc"
 brew "patchutils"
-brew "pkg-config"
 brew "pyenv"
-brew "python"
 brew "wget"
 brew "yarn"
+brew "zsh-completions"
+brew "gotgenes/gotgenes/getignore"
 cask "brave-browser"
+cask "displaylink"
 cask "docker"
 cask "gimp"
 cask "google-chrome"
 cask "kindle"
+cask "sequel-pro"
+cask "slack"
 cask "virtualbox"
 cask "visual-studio-code"
 
 # macOS App Store Apps
 # Note that until Brewfile supports `mas purchase`, these must have been installed
 # at least once before on the currently signed-in-on-the-macOS Apple ID.
-mas "Flycut", id: 442160987          # Clipboard manager for macOS - super useful.
-mas "Get Plain Text", id: 508368068  # Transform copied text to plain format.
+mas "com.alice.mac.GetPlainText", id: 508368068 # Transform copied text to plain format.
+mas "Flycut", id: 442160987                     # Clipboard manager for macOS - super useful.
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
@@ -52,7 +57,6 @@ mas "Slack", id: 803453959
 # Recommended But Cost Money:
 
 # mas 415158530 # "PixelStick"
-# mas 833521762 # "PlainTextMenu"
 # mas 627866610 # "EPUB Viewer"
 # mas 641027709 # "Color Picker"
 # mas 499768540 # "Power JSON Editor"
@@ -64,3 +68,5 @@ mas "Slack", id: 803453959
 # Very Optional
 
 # mas 406056744 # "Evernote"
+# mas "Okta Extension App", id: 1439967473
+# mas "Night Eye", id: 1450504903
