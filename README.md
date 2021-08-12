@@ -71,6 +71,22 @@ If you encounter any failures, you can just edit the files in question, delete a
 
 Re-running `fresh-mac` does not hurt.
 
+### Error on App Already in Applications Folder
+
+Delete the app in the `Applications` folder, and re-run `fresh-mac` (or just `brew` if you want, on the `fresh-mac` `Brewfile`).  This way, `brew` will be able to manage the app, instead of having to use the App Store/`mas`.
+
+### App Store Apps Won't Download
+
+The app must have already been installed by your current iCloud user.  So to fix this, you'll have to manually use the App Store gui to click and install.  If this bugs you, vote for the appropriate issue on [https://github.com/Homebrew/brew/issues].
+
+### Error: Bad CPU type in executable
+
+`brew uninstall` the offending package.  If that doesn't work, you might be using some other version manager, such as `nvm`.  If use that to uninstall any offending versions.  If you're using `nvm`, then do `nvm use system`, and re-rerun `fresh-mac`.
+
+### npm ERR! code EEXIST
+
+For some reason, the `npx` package complains when it is already installed and a command is given to install it.  This can be ignored for `npx` and other packages.  `fresh-mac` never uses `--force` so don't worry.
+
 ## Contributing
 
 Read the [Aims](#aims) section and ensure that your contributions further those aims.

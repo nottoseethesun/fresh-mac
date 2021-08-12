@@ -7,8 +7,10 @@
 if [ -e /opt/homebrew ]
 then
     brewPrefix="/opt/homebrew"
+    brewExecutablePrefix=`echo ${brewPrefix}`
 else
     brewPrefix="/usr/local/opt"
+    brewExecutablePrefix=`echo ${brewPrefix}`/..
 fi
 
 export brewPrefix
