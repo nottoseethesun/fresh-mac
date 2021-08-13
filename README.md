@@ -28,6 +28,8 @@ With just a single script for the user to run manually, `fresh-mac` automates th
 
 Re-running `fresh-mac` should never hurt.  This lets users get the install done in the easiest way possible even if there are problems at first.
 
+Note that home dir files that `fresh-mac` overwrites are always saved in `~/.fresh-mac/backup`.  However, get anything you need out of there before running the script twice in a row, so you don't lose any customizations you had. :)
+
 ## Usage
 
 ### Set-up
@@ -89,9 +91,18 @@ For some reason, the `npx` package complains when it is already installed and a 
 
 ## Contributing
 
-Read the [Aims](#aims) section and ensure that your contributions further those aims.
+Read the [Aims](#aims) and [Roadmap](#roadmap) sections and ensure that your contributions further those aims.
 
 Submit a feature or bugfix pr from your branch/fork.
+
+## Roadmap
+
+* Option to skip copying over homedir files
+* Make everything work from a `Makefile`, like standard practice
+* Implement a checkbox u.i. for packages e.g. with `ncurses`
+* Offer a package tree for the `brew` and `mas` package managers - e.g., "frontend", "web", "native", "backend", "ml"
+* Make this work on Linux (homebrew works great on Linux)
+* Intelligent merge option with existing homedir files
 
 ## Project Logo Credit and License
 
