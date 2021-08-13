@@ -28,6 +28,11 @@ brew "yarn"
 brew "zsh-completions"
 brew "gotgenes/gotgenes/getignore"
 cask "brave-browser"
+<<<<<<< HEAD
+=======
+cask "charles"
+cask "displaylink"
+>>>>>>> feb33c8 (Add charles cask)
 cask "docker"
 cask "gimp"
 cask "google-chrome"
