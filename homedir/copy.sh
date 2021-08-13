@@ -8,8 +8,8 @@ echo Backing up any zsh/bash dot-files to "${bckp}"
 [[ -e ~/.bash_profile ]] && cp ~/.bash_profile "$bckp/"
 [[ -e ~/.bashrc ]] && cp ~/.bashrc "$bckp/"
 [[ -e ~/.zshrc ]] && cp ~/.zshrc "${bckp}/"
-[[ -e ~/.zprofile ]] && ~/.zprofile "$bckp/"
-[[ -e ~/alias.sh ]] && cp ~/alias.sh "$bckp/"
+[[ -e ~/.zprofile ]] && cp ~/.zprofile "${bckp}/"
+[[ -e ~/alias.sh ]] && cp ~/alias.sh "${bckp}/"
 
 cp .bash_profile ~/
 cp .bashrc ~/
