@@ -42,6 +42,11 @@ cask "visual-studio-code"
 # macOS App Store Apps
 # Note that until Brewfile supports `mas purchase`, these must have been installed
 # at least once before on the currently signed-in-on-the-macOS Apple ID.
+
+# There are two ways to get the id of an app:
+# `mas search [app name]` # Searches for app on App Store
+# `mas list` # Lists all installed apps originating from App Store
+
 mas "com.alice.mac.GetPlainText", id: 508368068 # Transform copied text to plain format.
 mas "Flycut", id: 442160987                     # Clipboard manager for macOS - super useful.
 mas "Keynote", id: 409183694
